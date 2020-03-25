@@ -20,6 +20,10 @@ public class LargestDifference {
 	}
 
 	public static int findLargestDifference(int[] numbers) {
+		
+		if(numbers==null || numbers.length==0)
+			return -1;
+		
 		int r = 0;
 		int indexVal = 0;
 		int ind = 0;
